@@ -10,7 +10,7 @@ import { ValidationPipe } from "./pipes/validation.pipe";
     const PORT = process.env.PORT || 5000;
 
     const app = await NestFactory.create(AppModule)
-
+    app.enableCors();
     const config = new DocumentBuilder()
       .setTitle('English Easy')
       .setDescription('English Easy REST API documentation')
@@ -27,3 +27,5 @@ import { ValidationPipe } from "./pipes/validation.pipe";
 
     await app.listen(PORT, () => console.log(`server started on port ${PORT}`))
 })()
+
+// heroku logs --tail -a english-easy-dr
