@@ -1,53 +1,38 @@
-import { HttpException, HttpStatus, Injectable } from "@nestjs/common";
-import { User } from "./users.model";
-import { InjectModel } from "@nestjs/sequelize";
+import { Injectable, UnauthorizedException } from "@nestjs/common";
+import { InjectModel } from "@nestjs/mongoose";
+import { User, UserDocument } from "./user.schema";
+import { Model } from "mongoose";
 import { CreateUserDto } from "./dto/create-user.dto";
-import { RolesService } from "../roles/roles.service";
-import { AddRoleDto } from "./dto/add-role.dto";
-import { BanUserDto } from "./dto/ban-user.dto";
 
 @Injectable()
 export class UsersService {
+  constructor(@InjectModel(User.name) private userSchema: Model<UserDocument>) {}
 
-    constructor(@InjectModel(User) private userRepository: typeof User,
-                private roleServices: RolesService) {}
+  async createUser(userDto: CreateUserDto) {
+    const newUser = new this.userSchema(userDto)
+    await newUser.save()
+    return newUser
+  }
 
-    async createUser(dto: CreateUserDto) {
-        const user = await this.userRepository.create(dto);
-        const role = await this.roleServices.getRoleByValue("USER")
-        await user.$set("roles", [role.id])
-        user.roles = [role]
-        return user;
+  async getUserByEmail(email: string){
+    const user = await this.userSchema.findOne({email})
+    return user;
+  }
+
+  async saveUserToken(token: string, id: number){
+    await this.userSchema.findByIdAndUpdate(id, { token });
+  }
+
+  async deleteUserToken(id: string){
+    await this.userSchema.findByIdAndUpdate(id, { token: null });
+  }
+
+  async getCurrentUser(id, token){
+    const user = await this.userSchema.findById({_id: id})
+    if(user.token === token){
+      return user;
     }
+    throw new UnauthorizedException({message: 'user not authorization'});
+  }
 
-    async getAllUsers() {
-        const users = await this.userRepository.findAll({include: {all: true}});
-        return users;
-    }
-
-    async getUserByEmail(email: string){
-        const user = await this.userRepository.findOne({where: { email }, include: {all: true}})
-        return user;
-    }
-
-    async addRole(dto: AddRoleDto){
-        const user = await this.userRepository.findByPk(dto.userId)
-        const role = await this.roleServices.getRoleByValue(dto.value)
-        if(role && user){
-            await user.$add('role', role.id)
-            return dto;
-        }
-        throw new HttpException('user or role not found', HttpStatus.NOT_FOUND)
-    }
-
-    async banUser(dto: BanUserDto) {
-        const user = await this.userRepository.findByPk(dto.userId)
-        if(!user){
-            throw new HttpException('user not found', HttpStatus.NOT_FOUND)
-        }
-        user.banned = true;
-        user.banReason = dto.banReason;
-        await user.save();
-        return user;
-    }
 }

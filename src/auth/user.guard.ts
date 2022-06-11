@@ -9,16 +9,16 @@ import {
 import { Observable } from "rxjs";
 import { JwtService } from "@nestjs/jwt";
 import { Reflector } from "@nestjs/core";
-import { ROLES_KEY } from "./roles-auth.decorator";
+import { USERS_KEY } from "./user.decorators";
 
 @Injectable()
-export class RolesGuard implements  CanActivate{
+export class UsersGuard implements  CanActivate{
   constructor(private jwtService: JwtService,
               private reflector: Reflector) {
   }
   canActivate(context: ExecutionContext): boolean | Promise<boolean> | Observable<boolean> {
     try {
-      const requairedRoles = this.reflector.getAllAndOverride<string[]>(ROLES_KEY, [
+      const requairedRoles = this.reflector.getAllAndOverride<string[]>(USERS_KEY, [
         context.getClass(),
         context.getHandler()
       ])
