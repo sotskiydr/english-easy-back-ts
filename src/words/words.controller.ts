@@ -3,7 +3,6 @@ import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { WordsService } from './words.service';
 import { CreateWordDto } from './dto/create-word.dto';
 import { GetAllWordsDto } from './dto/get-all-words.dto';
-import { Users } from 'src/auth/user.decorators';
 import { JwtAuthGuard } from "../auth/jwt-auth.guard";
 
 @ApiTags('Words')
@@ -14,18 +13,17 @@ export class WordsController {
     
     @ApiOperation({summary: "Add new word"})
     @ApiResponse({ status: 201, type: CreateWordDto })
-    @Post()
+    @Post('/create')
     @UseGuards(JwtAuthGuard)
-        // @Users()
+
     create(@Body() createWordDto: CreateWordDto) {
         return this.wordsService.create(createWordDto);
     }
 
     @ApiOperation({summary: "Get all words"})
     @ApiResponse({type: GetAllWordsDto})
-    @Get()
+    @Get('/getallwords')
     @UseGuards(JwtAuthGuard)
-        // @Users()
     getAll() {
         return this.wordsService.getAll();
     }

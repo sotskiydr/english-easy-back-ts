@@ -6,6 +6,7 @@ import { WordsController } from './words.controller';
 import { WordsService } from './words.service';
 import { UsersModule } from 'src/users/users.module';
 import { JwtAuthGuard } from 'src/auth/jwt-auth.guard';
+import { AuthModule } from "../auth/auth.module";
 
 @Module({
   controllers: [WordsController],
@@ -14,8 +15,8 @@ import { JwtAuthGuard } from 'src/auth/jwt-auth.guard';
     MongooseModule.forFeature([{
       name: Word.name, schema: WordSchema
     }]),
+    forwardRef(() => AuthModule),
     forwardRef(() => UsersModule),
-    JwtModule
   ]
 })
 export class WordsModule {}
