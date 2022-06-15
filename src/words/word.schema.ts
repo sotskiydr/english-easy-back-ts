@@ -11,6 +11,8 @@ export class Word {
   @Prop({required: true})
   wordEn: string;
 
+  // @Prop({ required: true })
+  // owner: string;
 }
 
 export const WordSchema = SchemaFactory.createForClass(Word);
