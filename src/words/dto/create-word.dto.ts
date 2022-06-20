@@ -1,5 +1,5 @@
 import {ApiProperty} from "@nestjs/swagger";
-import { IsEmail, IsString, Length } from "class-validator";
+import { IsString } from "class-validator";
 
 export class CreateWordDto {
     @ApiProperty({ example: 'Яблоко', description: 'russian word' })

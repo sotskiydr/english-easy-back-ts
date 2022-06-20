@@ -4,7 +4,6 @@ import { MongooseModule } from "@nestjs/mongoose";
 import { User, UserSchema } from "./user.schema";
 import { UsersController } from "./users.controller";
 import { AuthModule } from "../auth/auth.module";
-import { WordsModule } from "src/words/words.module";
 
 @Module({
   providers: [UsersService],
@@ -14,7 +13,6 @@ import { WordsModule } from "src/words/words.module";
       name: User.name, schema: UserSchema
     }]),
     forwardRef(() => AuthModule),
-    // forwardRef(()=> WordsModule)
   ],
   exports: [
     UsersService
