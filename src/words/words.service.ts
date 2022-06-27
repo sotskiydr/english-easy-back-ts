@@ -1,8 +1,9 @@
-import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
+import { HttpException, HttpStatus, Injectable, NotFoundException } from '@nestjs/common';
 import { InjectModel } from "@nestjs/mongoose";
 import { Model } from "mongoose";
 import { User } from 'src/users/user.schema';
 import { CreateWordDto } from './dto/create-word.dto';
+import { UpdateWordDto } from './dto/update-word.dto';
 import { Word, WordDocument } from './word.schema';
 
 @Injectable()
@@ -30,5 +31,21 @@ export class WordsService {
              return myVocabulary;
         }
        throw new HttpException('Add words to your own vocabulary', HttpStatus.NOT_FOUND)
+    }
+
+    async updateWord(id: number, updateWord: UpdateWordDto) {
+        const updatedWord = await this.wordSchema.findByIdAndUpdate(id, updateWord);
+        if (!updatedWord) {
+            throw new NotFoundException();
+        }
+        return updatedWord;
+    }
+
+    async deleteWord(id: number) {
+        const deletedWord = await this.wordSchema.findByIdAndDelete(id);
+        if (!deletedWord) {
+            throw new NotFoundException();
+        }
+        return "Deleted successfuly"
     }
 }
