@@ -1,8 +1,10 @@
+
 import { Controller, Post, Body, Get, UseGuards, Req } from "@nestjs/common";
 import { ApiOperation, ApiResponse, ApiTags } from "@nestjs/swagger";
 import { WordsService } from "./words.service";
 import { CreateWordDto } from "./dto/create-word.dto";
 import { GetAllWordsDto } from "./dto/get-all-words.dto";
+import { UpdateWordDto } from './dto/update-word.dto';
 import { JwtAuthGuard } from "../auth/jwt-auth.guard";
 
 @ApiTags("Words")
@@ -25,6 +27,30 @@ export class WordsController {
   getAll() {
     return this.wordsService.getAll();
   }
+  
+ @ApiOperation({summary: "Own vocabulary"})
+    @ApiOkResponse({type: GetAllWordsDto})
+    @Get('/vocabulary')
+    @UseGuards(JwtAuthGuard)
+    getOwnWords(@Req() req: any) {
+        return this.wordsService.getOwnWords(req.user.id);
+    }
+
+    @ApiOperation({summary: "Update word"})
+    @ApiOkResponse({type: UpdateWordDto})
+    @Put('/:id')
+    @UseGuards(JwtAuthGuard)
+    updateWord(@Param('id') id: number, @Body() updateWordDto: UpdateWordDto) {
+        return this.wordsService.updateWord(id, updateWordDto);
+    }
+
+    @ApiOperation({summary: "Delete word"})
+    @ApiOkResponse({description: 'Deleted successfuly'})
+    @Delete('/:id')
+    @UseGuards(JwtAuthGuard)
+    deleteWord(@Param('id') id: number) {
+        return this.wordsService.deleteWord(id);
+    }
 
   @Get("/get-admins-words")
   @ApiResponse({ type: GetAllWordsDto })
@@ -32,4 +58,3 @@ export class WordsController {
   getAdminsWords(@Req() user) {
     return this.wordsService.getAdminsWords(user.user.email);
   }
-}
