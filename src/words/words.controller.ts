@@ -1,4 +1,3 @@
-
 import { Controller, Post, Body, Get, UseGuards, Req, Put, Param, Delete } from "@nestjs/common";
 import { ApiCreatedResponse, ApiOkResponse, ApiOperation, ApiResponse, ApiTags } from "@nestjs/swagger";
 import { WordsService } from "./words.service";
