@@ -4,7 +4,7 @@ import { Model } from "mongoose";
 import { CreateWordDto } from "./dto/create-word.dto";
 import { Word, WordDocument } from "./word.schema";
 import { UpdateWordDto } from './dto/update-word.dto';
-import adminsWords from "../../data/voc.json";
+import adminsWords from "../data/voc.json";
 import { UsersService } from "../users/users.service";
 import { User } from "../users/user.schema";
 
