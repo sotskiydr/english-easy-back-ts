@@ -1,0 +1,758 @@
+{
+  "data": [
+    {
+      "_id": "gthw7SNyjpB0YXVbDz186",
+      "WordEn": "expencive",
+      "WordRu": "дорого/дорогой"
+    },
+    { "_id": "Zh-rjPhL4QnPA0BAENC_a", "WordEn": "beauty", "WordRu": "красота" },
+    {
+      "_id": "d_pb-WJ6wO7mqQkUN1a8I",
+      "WordEn": "special",
+      "WordRu": "специальный/особый"
+    },
+    { "_id": "_hAh3miuUpBRI_rvzbgrd", "WordEn": "simple", "WordRu": "просто" },
+    {
+      "_id": "FqY3lXegYsaNtKaKV6l-m",
+      "WordEn": "relaxed",
+      "WordRu": "расслабленный"
+    },
+    {
+      "_id": "IyF1_--YFgmDxqI1_Ah17",
+      "WordEn": "success",
+      "WordRu": "успех/удача"
+    },
+    { "_id": "Ph7nLrUDuQLStC80eDLls", "WordEn": "forget", "WordRu": "забывать" },
+    {
+      "_id": "b2o9VLpKnfccOLQiwLKvM",
+      "WordEn": "ugliness",
+      "WordRu": "уродство"
+    },
+    {
+      "_id": "MwE2VuX5tZAFbwHtjmqeT",
+      "WordEn": "remember",
+      "WordRu": "помнить"
+    },
+    { "_id": "2An6zozpJgvqAYFrgrUGQ", "WordEn": "tense", "WordRu": "время" },
+    {
+      "_id": "HjyfbKrwkQFhiEIpAX9Qp",
+      "WordEn": "unknown",
+      "WordRu": "неWordRu"
+    },
+    {
+      "_id": "OaunuausvnZua0sZIB5XW",
+      "WordEn": "ordinary",
+      "WordRu": "обычный"
+    },
+    {
+      "_id": "x2cc6A1TUM0HOBB_xXz7d",
+      "WordEn": "complicated",
+      "WordRu": "сложно"
+    },
+    { "_id": "fWS1bAItsS7I95Snis8XB", "WordEn": "cheap", "WordRu": "дешевый" },
+    {
+      "_id": "ATE_OWEcBC140BeizcEyO",
+      "WordEn": "failure",
+      "WordRu": "отказ / провал"
+    },
+    {
+      "_id": "wpeSkbkBm2Bdg9zlf-Lm9",
+      "WordEn": "outstanding",
+      "WordRu": "выдающийся"
+    },
+    { "_id": "3earL7hHHIaISCnyXMPKS", "WordEn": "strong", "WordRu": "сильный" },
+    {
+      "_id": "8E_NsgNC9WKXZmxr9N5BI",
+      "WordEn": "glamorouse",
+      "WordRu": "гламурный"
+    },
+    {
+      "_id": "6w3xmFLfdaXq3c7esMCXW",
+      "WordEn": "casual",
+      "WordRu": "повседневный/случайный"
+    },
+    { "_id": "dKAKAORy7gKNWKf_yVqi_", "WordEn": "to get", "WordRu": "получить" },
+    {
+      "_id": "3i62v_Ug8ZXlWbCUhPk_P",
+      "WordEn": "fattening",
+      "WordRu": "откорм/ведущий к ожирению"
+    },
+    {
+      "_id": "JzaIymd02WaDuQNF57HCA",
+      "WordEn": "to be close",
+      "WordRu": "чтобы быть рядом/ сблизиться"
+    },
+    {
+      "_id": "FQnQ2DetdZtNHiElw4Pp-",
+      "WordEn": "to fill",
+      "WordRu": "заполнять"
+    },
+    {
+      "_id": "1nzJ7WfZTFtyU-ODzh_x8",
+      "WordEn": "stranger",
+      "WordRu": "незнакомый/чужой"
+    },
+    {
+      "_id": "j9uwucRkJDYuZGiWueMAp",
+      "WordEn": "rather",
+      "WordRu": "скорее/ довольно"
+    },
+    {
+      "_id": "u9bGcHVqvEdjwrayJ4pzJ",
+      "WordEn": "cowardly",
+      "WordRu": "трусливый"
+    },
+    { "_id": "ygn_oYi0SK1it-Ea3Z18U", "WordEn": "trouble", "WordRu": "беда" },
+    { "_id": "qpyPFtKXEBJiNZVkxfbkn", "WordEn": "should", "WordRu": "должен" },
+    {
+      "_id": "Mnn06BHbBqh3N7pWSWIH2",
+      "WordEn": "untill",
+      "WordRu": "пока/ до какого-то момента"
+    },
+    {
+      "_id": "BaTuIwIGbHvB_cJmxZr3e",
+      "WordEn": "quite",
+      "WordRu": "довольно/вполне"
+    },
+    {
+      "_id": "Qr78PrLFyAYZ28LpLtOoz",
+      "WordEn": "completition",
+      "WordRu": "соревнования/конкурс"
+    },
+    { "_id": "kxe6LpfLq08BT0n-1Uu9i", "WordEn": "won", "WordRu": "победил" },
+    { "_id": "YmFZrU1SbEMs3sbBg0Afa", "WordEn": "gained", "WordRu": "получил" },
+    { "_id": "_HzXSQVvEu5FgUtMluTEd", "WordEn": "tough", "WordRu": "жесткий" },
+    {
+      "_id": "9uM2lU7TpKoexEGvCn6Pw",
+      "WordEn": "have to be",
+      "WordRu": "должен быть"
+    },
+    {
+      "_id": "8cJb4WXVcIgNwvkVAGRIi",
+      "WordEn": "hard-working",
+      "WordRu": "трудолюбивый"
+    },
+    {
+      "_id": "gC07OhDc8X7D94krktmuq",
+      "WordEn": "achieve",
+      "WordRu": "достигать"
+    },
+    {
+      "_id": "tw6Q_1vPe-ktiNO-_1R6r",
+      "WordEn": "since",
+      "WordRu": "поскольку/ со времени"
+    },
+    {
+      "_id": "0y1bInyzz9ctU8Afn_fvy",
+      "WordEn": "retired",
+      "WordRu": "в отставке, удалившийся"
+    },
+    { "_id": "tDdUHCYQzJzcAbNbV50aP", "WordEn": "whose", "WordRu": "чей" },
+    {
+      "_id": "BII-lp9hiXAMjtMKSLzfC",
+      "WordEn": "relative",
+      "WordRu": "относительный"
+    },
+    {
+      "_id": "XEX-3MmUhy6_idJ__ScINZ",
+      "WordEn": "introduced",
+      "WordRu": "представил"
+    },
+    {
+      "_id": "VIRWkBlRFaT6qdkP8-Y8q",
+      "WordEn": "slender",
+      "WordRu": "стройный"
+    },
+    {
+      "_id": "4097zP3vavtIi3s9BJ0dM",
+      "WordEn": "overcome",
+      "WordRu": "превосходить, преодолевать"
+    },
+    {
+      "_id": "_OyvHQ12z5xCEl7XLsd0-",
+      "WordEn": "reveal",
+      "WordRu": "раскрывать, открывать"
+    },
+    {
+      "_id": "uTNr7EvabWBG0BAaPJ2kK",
+      "WordEn": "beliefs",
+      "WordRu": "убеждения"
+    },
+    {
+      "_id": "1WgmRTbA71BOzQdX75ViV",
+      "WordEn": "currently",
+      "WordRu": "теперь/ в настоящее время"
+    },
+    {
+      "_id": "49e5x8MibyCnwPTlZ30-b",
+      "WordEn": "find out",
+      "WordRu": "выяснить/ узнать"
+    },
+    {
+      "_id": "yXqzuaQsvgY3epP3JEhmH",
+      "WordEn": "get over",
+      "WordRu": "забывать преодолевать"
+    },
+    {
+      "_id": "gCPi1Q_zu4zfYRSx9SgbJ",
+      "WordEn": "discover",
+      "WordRu": "обнаружить, находить"
+    },
+    {
+      "_id": "oJU76KUxuUD_qHFRsZOFP",
+      "WordEn": "keep",
+      "WordRu": "держать / сохранять"
+    },
+    {
+      "_id": "gmqPuvqOKC-Mad5m_F9lh",
+      "WordEn": "div_ided",
+      "WordRu": "разделен"
+    },
+    {
+      "_id": "c44KwAMY1GmAKKvlQI-0C",
+      "WordEn": "never know",
+      "WordRu": "никогда не знаешь"
+    },
+    {
+      "_id": "YfELOllDpiS71jPBoQgTx",
+      "WordEn": "perfoms",
+      "WordRu": "выполнять"
+    },
+    {
+      "_id": "sN6amrFBtJ1OUrsPvKFw7",
+      "WordEn": "allmost there",
+      "WordRu": "почти готово"
+    },
+    { "_id": "6HA0ej8Yl7linUBV1yDa8", "WordEn": "belive", "WordRu": "верить" },
+    {
+      "_id": "A1Ci3CPKCF2ZTozD2in_c",
+      "WordEn": "nearby, nearly",
+      "WordRu": "поблизости , около"
+    },
+    {
+      "_id": "DR4WwMVKJGSPoG4rIsD-4",
+      "WordEn": "especially",
+      "WordRu": "особенно"
+    },
+    {
+      "_id": "pAFWgXj9nYOm7xUets43u",
+      "WordEn": "fitting room",
+      "WordRu": "примерочная"
+    },
+    { "_id": "wyY5tAKvozJUEb_dNQLQu", "WordEn": "coat", "WordRu": "пальто" },
+    {
+      "_id": "4RIbx_o5okoc5sALhrCTH",
+      "WordEn": "become",
+      "WordRu": "становиться / стать кем-то"
+    },
+    { "_id": "Zpl3adDJHCvPlcZciyesB", "WordEn": "cheap", "WordRu": "дешевый" },
+    { "_id": "IsbzRlpYbZOsQadt8JudI", "WordEn": "tax", "WordRu": "налог" },
+    { "_id": "PimXbOfPMH7XX17dsJrZs", "WordEn": "sale", "WordRu": "распродажа" },
+    { "_id": "LZyi4i4gwZ_6bLAdf_qtF", "WordEn": "sell", "WordRu": "продавать" },
+    {
+      "_id": "p6kx6MFG0YUTMe6ZO7Gpb",
+      "WordEn": "buy",
+      "WordRu": "покупать /наст.время"
+    },
+    { "_id": "CxJt9VYWGSgqlT8S-2E8v", "WordEn": "pants", "WordRu": "штаны" },
+    {
+      "_id": "tTty6-Qka_WBSwfk3W9sW",
+      "WordEn": "t-shirt",
+      "WordRu": "футболка"
+    },
+    {
+      "_id": "f55UBE-DLqe52d3kU00fv",
+      "WordEn": "restroom",
+      "WordRu": "туалет/уборная в заведениях"
+    },
+    {
+      "_id": "7ofhP4pQ41ihFBsEZ9QwD",
+      "WordEn": "flight",
+      "WordRu": "авиарейс/полёт"
+    },
+    { "_id": "VM5UFV7EaLzQBunA_yISM", "WordEn": "date", "WordRu": "свидание" },
+    {
+      "_id": "2YxmshalwJs2HthAaknHF",
+      "WordEn": "break room",
+      "WordRu": "комната отдыха"
+    },
+    {
+      "_id": "d0kLT8XKurjg6f4RkGrll",
+      "WordEn": "enough",
+      "WordRu": "достаточно"
+    },
+    { "_id": "9chLReigzEzKm6AfqD4kB", "WordEn": "a lot", "WordRu": "много" },
+    {
+      "_id": "cFVNzQvwA4qe207iUHDIy",
+      "WordEn": "wonderful",
+      "WordRu": "прекрасный/чудесный"
+    },
+    { "_id": "lqoBX8z7rQuV7cK_15yYk", "WordEn": "store", "WordRu": "магазин" },
+    { "_id": "tfnhzGM0o3ESp8Z1qpBZC", "WordEn": "magazine", "WordRu": "журнал" },
+    { "_id": "j_Ds_B9oQdpi30S__U4be", "WordEn": "bean", "WordRu": "фасоль" },
+    {
+      "_id": "M6cIhWvB38iIucwQbdgIs",
+      "WordEn": "nervous",
+      "WordRu": "взволнованный/нервный"
+    },
+    {
+      "_id": "QbDtphLpnZFcdQKHF7F8r",
+      "WordEn": "point at",
+      "WordRu": "показывать на что или кого то"
+    },
+    { "_id": "QTCOaCsygHcjiY1cyuAKj", "WordEn": "ticket", "WordRu": "билет" },
+    {
+      "_id": "P-JqU65MoSWw1PSxdHpiv",
+      "WordEn": "never mind",
+      "WordRu": "не бери в голову"
+    },
+    {
+      "_id": "q9caqg1dGAKnEQlfY2gKh",
+      "WordEn": "terrible",
+      "WordRu": "ужасный"
+    },
+    { "_id": "4v43z8M1ZBPBkFLhJKqMI", "WordEn": "as well", "WordRu": "также" },
+    {
+      "_id": "3fs-KYCtKaVChl-b3UFsY",
+      "WordEn": "as well as",
+      "WordRu": "также как и"
+    },
+    { "_id": "MOT4KRM-O0po3L3dNWPqL", "WordEn": "guess", "WordRu": "угадай" },
+    { "_id": "knNmVvwcaShtZAp9mpfU2", "WordEn": "outfit", "WordRu": "наряд" },
+    {
+      "_id": "LAu6GyvVMsNswZZnhzZWN",
+      "WordEn": "handsome",
+      "WordRu": "красивый, привлекательный (характеристика)"
+    },
+    {
+      "_id": "1uFYSpLXUjf_TwLKY64EP",
+      "WordEn": "instead of",
+      "WordRu": "вместо"
+    },
+    {
+      "_id": "KEZ1w55yFBdZRcZX6asRs",
+      "WordEn": "enjoy",
+      "WordRu": "наслаждаться"
+    },
+    { "_id": "IZ0YM9-L4HBU37iJ-yxDQ", "WordEn": "smell", "WordRu": "запах" },
+    { "_id": "DGKf4y2rzuPa-bROeOuvn", "WordEn": "empty", "WordRu": "пустой" },
+    {
+      "_id": "a05zDZsuRfZ0c4fwQAcrj",
+      "WordEn": "employee",
+      "WordRu": "работник"
+    },
+    {
+      "_id": "l4A73Ojf7N3nJQWCRygdB",
+      "WordEn": "think, thought, _idea, mind",
+      "WordRu": "мысль"
+    },
+    {
+      "_id": "87W8YQgDq7H6r4OoyMvAM",
+      "WordEn": "destroyed, ruined, disrupted, blasted",
+      "WordRu": "разрушенный"
+    },
+    {
+      "_id": "Cqg4ct2-txySfgHQuAwOf",
+      "WordEn": "perhaps, maybe",
+      "WordRu": "возможно, может быть"
+    },
+    {
+      "_id": "ZZY4RHprHD91wlks3AhT6",
+      "WordEn": "instead, vice",
+      "WordRu": "вместо"
+    },
+    {
+      "_id": "ChzsPVqF-cKSY0mx97L6k",
+      "WordEn": "some",
+      "WordRu": "немного, некоторые"
+    },
+    {
+      "_id": "vIV81MZyD79ra_gFRIVHX",
+      "WordEn": "confirmation",
+      "WordRu": "подтверждение"
+    },
+    {
+      "_id": "_H0iiqokZGlOYafFSz5sH",
+      "WordEn": "exciting",
+      "WordRu": "захватывающе"
+    },
+    {
+      "_id": "E-7mNWacenZZRFapcsm0a",
+      "WordEn": "actually",
+      "WordRu": "фактически"
+    },
+    {
+      "_id": "8rFKjhikyH2zOVOx3ppsl",
+      "WordEn": "i've got",
+      "WordRu": "у меня есть"
+    },
+    {
+      "_id": "D5aw8Bb7-QZ734NbLllJn",
+      "WordEn": "there's",
+      "WordRu": "есть, имеется"
+    },
+    { "_id": "i1D6OpH32CzSO_fPosjQo", "WordEn": "there", "WordRu": "там" },
+    {
+      "_id": "BflnLSI7dX3NRDVe9HhNx",
+      "WordEn": "waiter/server",
+      "WordRu": "официант"
+    },
+    { "_id": "zEPmbQuEbjhldjobNJ3lr", "WordEn": "sick", "WordRu": "больной" },
+    {
+      "_id": "ApHDR5HNpHSU5358cd_iC",
+      "WordEn": "although",
+      "WordRu": "несмотря на то что"
+    },
+    {
+      "_id": "vlM1_Dgx1JGCoCBLiuTmi",
+      "WordEn": "fever",
+      "WordRu": "температура/жар"
+    },
+    {
+      "_id": "UKEFFhkaC8JlRW3Cv_VCc",
+      "WordEn": "octopus",
+      "WordRu": "осьминог АХАХАХА"
+    },
+    {
+      "_id": "FJqQaFlvvHDBQRJvfK9eb",
+      "WordEn": "headache",
+      "WordRu": "головная боль"
+    },
+    { "_id": "eYMva1sluajA0T5EtrcFm", "WordEn": "both", "WordRu": "оба" },
+    {
+      "_id": "9oi22YWIoh3ILzXqsvx_-",
+      "WordEn": "defenitely",
+      "WordRu": "определенно"
+    },
+    { "_id": "8Vr1FfLi54rZAdJMTwIHe", "WordEn": "leave", "WordRu": "оставлять" },
+    {
+      "_id": "h_zrcvjKhrTlOLk8s_Sas",
+      "WordEn": "wonder",
+      "WordRu": "удивляться"
+    },
+    {
+      "_id": "6SP9ASz8ASolrB5NB81aq",
+      "WordEn": "customer",
+      "WordRu": "покупатель, клиент"
+    },
+    {
+      "_id": "iYZjN1ULIQtPTGGdWjTny",
+      "WordEn": "divine",
+      "WordRu": "божественный"
+    },
+    {
+      "_id": "_kwhsgrXn-pBulo8AL-z2",
+      "WordEn": "exquisite",
+      "WordRu": "изысканный"
+    },
+    {
+      "_id": "edoeMFbs0Ojx8q437ckXx",
+      "WordEn": "mind you",
+      "WordRu": "заметьте"
+    },
+    {
+      "_id": "h7KmuxVgsf4T03O59i2rQ",
+      "WordEn": "poison, poisonde",
+      "WordRu": "яд - отрравлен"
+    },
+    {
+      "_id": "pH9ZK5bJoxHqt9LvIIAuF",
+      "WordEn": "toothache",
+      "WordRu": "зубная боль"
+    },
+    { "_id": "HjLR_goHREFb2Yk7lTBjj", "WordEn": "advice", "WordRu": "советы" },
+    {
+      "_id": "nZKyGuDNrYe2OZlxhrZQ7",
+      "WordEn": "appointment",
+      "WordRu": "приём /на приём / встреча"
+    },
+    {
+      "_id": "zVd0SkjywIEpdBFBFxbWe",
+      "WordEn": "health insurance",
+      "WordRu": "медицинская страховка"
+    },
+    {
+      "_id": "jo3CjPdsquEizCqcofkb0",
+      "WordEn": "stomach",
+      "WordRu": "живот /желудок"
+    },
+    {
+      "_id": "i7dFvWNVaCU4dzCFxXwRs",
+      "WordEn": "hurt",
+      "WordRu": "болит/будет болеть"
+    },
+    { "_id": "WW4wyAqnFUUPB6rR5fTUW", "WordEn": "throat", "WordRu": "горло" },
+    { "_id": "WTTTQLJv-y4KTGlF7cHcC", "WordEn": "lake", "WordRu": "озеро" },
+    {
+      "_id": "t58feCOM6tecyiXgiwEM8",
+      "WordEn": "bring",
+      "WordRu": "принести/привести"
+    },
+    { "_id": "7yMPSXjbVm5oa4qpG167L", "WordEn": "blanket", "WordRu": "одеяло" },
+    { "_id": "7jBBTDg0ihTfAdIKEytfJ", "WordEn": "quiet", "WordRu": "тихо" },
+    { "_id": "fedbJhLBbuSazVbU_JuxU", "WordEn": "windy", "WordRu": "ветрено" },
+    {
+      "_id": "c-ul-NW4jWe9Lr7ixc_Vh",
+      "WordEn": "originally",
+      "WordRu": "родом"
+    },
+    { "_id": "n56VAfpJ6iFEcGJn32hd6", "WordEn": "between", "WordRu": "между" },
+    {
+      "_id": "y3Pv9oAydoCb_zlBEsclc",
+      "WordEn": "property",
+      "WordRu": "свойство"
+    },
+    { "_id": "Eis5YIR0drbJH60Jfdu9t", "WordEn": "neighbor", "WordRu": "сосед" },
+    {
+      "_id": "mVAS8sE_qCyXa5UTLqCI3",
+      "WordEn": "still",
+      "WordRu": "ещё /все ещё /до сих пор"
+    },
+    {
+      "_id": "z0KbzsRi3x9aYXY4HprAp",
+      "WordEn": "invite",
+      "WordRu": "приглашать"
+    },
+    {
+      "_id": "p31F03b0g7kJzfdW8mtJb",
+      "WordEn": "arrival",
+      "WordRu": "прибытие/приезд"
+    },
+    { "_id": "HgLvnLdFM8v8cioD4q0dz", "WordEn": "parcel", "WordRu": "посылка" },
+    { "_id": "vPlcErJftXdewg7agYNAb", "WordEn": "drop", "WordRu": "бросить" },
+    {
+      "_id": "bLUfA0pIQM86JyMro4Hvm",
+      "WordEn": "advert",
+      "WordRu": "объявление"
+    },
+    { "_id": "NZk_YY2BQnNFbjq8qDs31", "WordEn": "vacation", "WordRu": "отпуск" },
+    { "_id": "Y9BIQjDd-32flG_Uyaq6D", "WordEn": "elevator", "WordRu": "лифт" },
+    { "_id": "8zrrfRXiODqpwaiHvr3fH", "WordEn": "scary", "WordRu": "страшный" },
+    { "_id": "nGObNDB2_Vx3GFIhElBfu", "WordEn": "even", "WordRu": "даже" },
+    { "_id": "cq5t5Qmb_J3pjOZUPyqBu", "WordEn": "stair", "WordRu": "лестница" },
+    {
+      "_id": "TrTjqUVhbWuNV621Bwf30",
+      "WordEn": "retired",
+      "WordRu": "на пенсии"
+    },
+    { "_id": "HDjtyriYzXWoonUqWxP_R", "WordEn": "fast", "WordRu": "быстро" },
+    {
+      "_id": "oRCYJeTyRfrb1i1t8vK2u",
+      "WordEn": "until",
+      "WordRu": "до того как"
+    },
+    { "_id": "v6wFK--0PhUcWPSiNPfvb", "WordEn": "chain", "WordRu": "цепь" },
+    { "_id": "dRa0wIGYMrRPyRzhGLKkw", "WordEn": "empty", "WordRu": "пустой" },
+    {
+      "_id": "s3WiAwe1_6d73CFDFpiol",
+      "WordEn": "responsible",
+      "WordRu": "ответственный"
+    },
+    {
+      "_id": "vGCB9hSgNjI1btScxSMX9",
+      "WordEn": "sort of",
+      "WordRu": "вроде/что то того"
+    },
+    {
+      "_id": "2SB0a_SloRwyt7yB6ZDud",
+      "WordEn": "gorgeous",
+      "WordRu": "великолепный"
+    },
+    { "_id": "tIXIqHjlSZx9G3AkHk7ZO", "WordEn": "broom", "WordRu": "метла" },
+    { "_id": "UGd1eHr55p5Ulsab_YrZJ", "WordEn": "i grew up", "WordRu": "вырос" },
+    { "_id": "sTR_T-vKzvEekWRxl2nvc", "WordEn": "reason", "WordRu": "причина" },
+    {
+      "_id": "951_3cpDQ4c1TJN6DLgkF",
+      "WordEn": "several",
+      "WordRu": "несколько"
+    },
+    {
+      "_id": "7Z2XNPksrW4tLJJxEL3XL",
+      "WordEn": "belongs",
+      "WordRu": "принадлежит"
+    },
+    { "_id": "xpjnCyFd1bRDIaWusFlzI", "WordEn": "upset", "WordRu": "upset" },
+    {
+      "_id": "66eIUuqiOeDzvYwa4tG6u",
+      "WordEn": "stolen",
+      "WordRu": "украденный"
+    },
+    {
+      "_id": "qeRhWuBlK-1Z1CdDthIqV",
+      "WordEn": "close to",
+      "WordRu": "рядом с"
+    },
+    {
+      "_id": "PXuFQHa-JZ8RSKyS3TKeK",
+      "WordEn": "broken",
+      "WordRu": "сломанный"
+    },
+    { "_id": "vGgmjLUfaC_TrKJwMOvyT", "WordEn": "ill", "WordRu": "бтльной" },
+    { "_id": "LAH5upa_ows_oP5EnJEsw", "WordEn": "divorce", "WordRu": "развод" },
+    { "_id": "dewr-dxbxuIaQqmFOJZjc", "WordEn": "darling", "WordRu": "дорогой" },
+    { "_id": "Ie133Pi8LYkM2g28opDdW", "WordEn": "adverts", "WordRu": "реклама" },
+    { "_id": "spJ_AxbYElihfXpIqmcS4", "WordEn": "plate", "WordRu": "тарелка" },
+    { "_id": "aw3u4ePUaDt_0pLSkInyI", "WordEn": "chase", "WordRu": "гнаться" },
+    { "_id": "dpt-SC7ufj4TVaigYakJI", "WordEn": "cushion", "WordRu": "подушка" },
+    {
+      "_id": "jfg3Ikj1CtaLmcUJYnqHY",
+      "WordEn": "strange mood",
+      "WordRu": "странное настроение"
+    },
+    {
+      "_id": "81pqdH5sAkxZPQIofmrOL",
+      "WordEn": "i am confused",
+      "WordRu": "я сбит с толку"
+    },
+    {
+      "_id": "_zB-rBntzo0Q7SOYiJL5o",
+      "WordEn": "anyway",
+      "WordRu": "тем не менее"
+    },
+    {
+      "_id": "5_nAdHJs0h1q1ydfIU_me",
+      "WordEn": "dating",
+      "WordRu": "знакомства"
+    },
+    {
+      "_id": "ucX3FpiiyikjaJlei3Ze1",
+      "WordEn": "owe",
+      "WordRu": "быть должным"
+    },
+    { "_id": "ktDi83BBnAMFz8EH1v-FK", "WordEn": "dare", "WordRu": "осмелиться" },
+    { "_id": "SX4c57PBAzeFdzkC-ZTLM", "WordEn": "cheeky", "WordRu": "дерзкий" },
+    {
+      "_id": "_6UK8702zUQGhrmoHfvJa",
+      "WordEn": "share",
+      "WordRu": "поделиться"
+    },
+    {
+      "_id": "IuOJn-tY_-5pryHTXiZwU",
+      "WordEn": "lie",
+      "WordRu": "ложь обман лежать"
+    },
+    {
+      "_id": "simXsv9wtPRf5yfLgjohY",
+      "WordEn": "advertisement",
+      "WordRu": "рекламное объявление"
+    },
+    { "_id": "9NMsVBtTFDboQDtUQxZEO", "WordEn": "feet", "WordRu": "ноги" },
+    { "_id": "ONO41wOqGr0SRLSInmguQ", "WordEn": "knee", "WordRu": "колено" },
+    { "_id": "LIGrOSMqpsBqclTv_uhK0", "WordEn": "poster", "WordRu": "плакат" },
+    {
+      "_id": "LlVb2Zod-qbQxnpucs8qB",
+      "WordEn": "relationship",
+      "WordRu": "отношение"
+    },
+    {
+      "_id": "HJb71nu3jcXAPEL_idLS5a",
+      "WordEn": "unusual",
+      "WordRu": "необычно"
+    },
+    {
+      "_id": "G2XwrAXCHVXHGK5wt8eGJ",
+      "WordEn": "close together",
+      "WordRu": "близко друг к другу"
+    },
+    {
+      "_id": "t0_zUv4ATuHcwjxnsLrr2",
+      "WordEn": "appear",
+      "WordRu": "появляться"
+    },
+    {
+      "_id": "TTuhUDxKFGDWVjakUXLWQ",
+      "WordEn": "perhaps",
+      "WordRu": "возможно"
+    },
+    {
+      "_id": "KgtHNOVY4SzHfyf7fzBSl",
+      "WordEn": "whole",
+      "WordRu": "целый, весь"
+    },
+    { "_id": "ffQV4t7lPB_cfqUfG6viW", "WordEn": "swallow", "WordRu": "глотать" },
+    {
+      "_id": "7gEZD9C2uu95pz8kMA_JK",
+      "WordEn": "take it easy",
+      "WordRu": "успокойся"
+    },
+    {
+      "_id": "tvOnXFtpYjJ1HghvXZoci",
+      "WordEn": "apparently",
+      "WordRu": "очевидно"
+    },
+    {
+      "_id": "O5HDvYNl_Aw5oxl1W6aWL",
+      "WordEn": "actually",
+      "WordRu": "вообще-то"
+    },
+    {
+      "_id": "SEP0pTO_JfqvVEeOxncnK",
+      "WordEn": "expecting",
+      "WordRu": "ожидание"
+    },
+    {
+      "_id": "Aq-x7Pgo_SqcM9eeUU40v",
+      "WordEn": "calm",
+      "WordRu": "спокойствие"
+    },
+    {
+      "_id": "C3AmoSd2Toprqm4FnW9Pf",
+      "WordEn": "miserable",
+      "WordRu": "убогий"
+    },
+    {
+      "_id": "cBGKXrAqnhQ8_dDq0Yhjm",
+      "WordEn": "frightened",
+      "WordRu": "испуганный"
+    },
+    {
+      "_id": "VeMrzb19lT-i_G3_cCS4G",
+      "WordEn": "uneasy",
+      "WordRu": "беспокойный"
+    },
+    { "_id": "0E5glVYgyfzYLLJy8sl17", "WordEn": "sad", "WordRu": "грустный" },
+    { "_id": "Fppyy3xS-A40IFhEiHpf-", "WordEn": "cheeful", "WordRu": "веселый" },
+    {
+      "_id": "dg8IOra00aDTpOaVsSlpn",
+      "WordEn": "excited",
+      "WordRu": "взволнованный"
+    },
+    {
+      "_id": "4rCKUWGhjrepvTm6dDc93",
+      "WordEn": "joyful",
+      "WordRu": "радостный"
+    },
+    { "_id": "3ITEJhupSy5Fbw4dKg9vf", "WordEn": "moody", "WordRu": "угрюмый" },
+    {
+      "_id": "rQqFSjncJ4avuz7_EMwRi",
+      "WordEn": "delighted",
+      "WordRu": "получивший удовольствие"
+    },
+    {
+      "_id": "aQbC4xBNEV6iv-57LcqBc",
+      "WordEn": "land/ landed",
+      "WordRu": "земля/ призмеляться"
+    },
+    {
+      "_id": "lOAHyyWDiOaqn9Tkylcz1",
+      "WordEn": "realize",
+      "WordRu": "ознавать"
+    },
+    {
+      "_id": "eRobNbKoL7cQuDKynmSNh",
+      "WordEn": "essentials",
+      "WordRu": "предметы первой необходимости"
+    },
+    {
+      "_id": "SV5qyyA5aaWth0hP8TwaL",
+      "WordEn": "most likely",
+      "WordRu": "скорее всего"
+    },
+    {
+      "_id": "DI85zMXy72xoGKldehoQz",
+      "WordEn": "climb",
+      "WordRu": "подниматься"
+    },
+    { "_id": "1mkCdTQea7yyHEQQXvkdM", "WordEn": "reach", "WordRu": "достигнуть" }
+  ]
+}
