@@ -1,4 +1,4 @@
-import { Controller, Post, Body, Get, UseGuards, Req, Put, Param, Delete } from "@nestjs/common";
+import { Controller, Post, Body, Get, UseGuards, Req, Put, Param, Delete, Query } from "@nestjs/common";
 import { ApiCreatedResponse, ApiOkResponse, ApiOperation, ApiResponse, ApiTags } from "@nestjs/swagger";
 import { WordsService } from "./words.service";
 import { CreateWordDto } from "./dto/create-word.dto";
@@ -24,16 +24,16 @@ export class WordsController {
   @ApiResponse({ type: GetAllWordsDto })
   @Get("/getallwords")
   @UseGuards(JwtAuthGuard)
-  getAll() {
-    return this.wordsService.getAll();
+  getAll(@Query() params) {
+    return this.wordsService.getAll(params);
   }
 
   @ApiOperation({ summary: "Own vocabulary" })
   @ApiOkResponse({ type: GetAllWordsDto })
   @Get('/vocabulary')
   @UseGuards(JwtAuthGuard)
-  getOwnWords(@Req() req: any) {
-    return this.wordsService.getOwnWords(req.user.id);
+  getOwnWords(@Query() params,@Req() req) {
+    return this.wordsService.getOwnWords(req, params);
   }
 
   @ApiOperation({ summary: "Update word" })
