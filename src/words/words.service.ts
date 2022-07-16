@@ -16,8 +16,13 @@ export class WordsService {
     private userService: UsersService,
   ) {}
 
-  async getAll() {
-    const allWords = await this.wordSchema.find();
+  async getAll(params) {
+    const { page = 1, limit = 1, favorite = false } = params;
+    const skip = (page - 1) * limit;
+    const allWords = await this.wordSchema.find({}, '', {
+      skip,
+      limit: Number(limit)
+    });
     return allWords;
   }
 
@@ -28,8 +33,16 @@ export class WordsService {
   }
 
 
-  async getOwnWords(id: number) {
-    const myVocabulary = await this.wordSchema.find({ owner: id })
+  async getOwnWords(req, params) {
+    const { page = 1, limit = 1, favorite = false } = params;
+    const skip = (page - 1) * limit;
+    const myVocabulary = await this.wordSchema.find(
+      { owner: req.id },
+      "",
+      {
+      skip,
+      limit: Number(limit)
+      })
     if (myVocabulary) {
       return myVocabulary;
     }
