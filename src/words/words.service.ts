@@ -17,36 +17,44 @@ export class WordsService {
   ) {}
 
   async getAll(params) {
-    const { page = 1, limit = 1, favorite = false } = params;
-    const skip = (page - 1) * limit;
-    const allWords = await this.wordSchema.find({}, '', {
-      skip,
-      limit: Number(limit)
-    });
-    return allWords;
+    const { page = 1, limit = 1 } = params;
+    const allWords = await this.wordSchema
+      .find({})
+      .skip((page - 1) * limit)
+      .limit(limit)
+
+    const count = await this.wordSchema.countDocuments({});
+    const total = {
+      totalPages: Math.ceil(count / limit),
+      currentPage: Number(page),
+      totalWords: count,
+    }
+    return { ...allWords, total };
+  }
+
+  async getOwnWords(req, params) {
+    const { page = 1, limit = 1 } = params;
+    const query = { owner: req.id };
+    const myVocabulary = await this.wordSchema
+      .find(query)
+      .skip((page - 1) * limit)
+      .limit(limit)
+    const count = await this.wordSchema.countDocuments(query);
+    const total = {
+      totalPages: Math.ceil(count / limit),
+      currentPage: Number(page),
+      totalWords: count,
+    }
+    if (myVocabulary) {
+      return { ...myVocabulary, total };
+    }
+    throw new HttpException('Add words to your own vocabulary', HttpStatus.NOT_FOUND)
   }
 
   async getAdminsWords(email: string) {
     const isAdmin = await this.userService.checkAdminRole(email);
     if(isAdmin) return adminsWords
     return 'user is not ADMIN'
-  }
-
-
-  async getOwnWords(req, params) {
-    const { page = 1, limit = 1, favorite = false } = params;
-    const skip = (page - 1) * limit;
-    const myVocabulary = await this.wordSchema.find(
-      { owner: req.id },
-      "",
-      {
-      skip,
-      limit: Number(limit)
-      })
-    if (myVocabulary) {
-      return myVocabulary;
-    }
-    throw new HttpException('Add words to your own vocabulary', HttpStatus.NOT_FOUND)
   }
 
   async updateWord(id: number, updateWord: UpdateWordDto) {
