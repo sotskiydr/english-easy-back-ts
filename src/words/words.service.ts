@@ -29,7 +29,7 @@ export class WordsService {
       currentPage: Number(page),
       totalWords: count,
     }
-    return { ...allWords, total };
+    return { words: allWords, total } ;
   }
 
   async getOwnWords(req, params) {
@@ -46,7 +46,7 @@ export class WordsService {
       totalWords: count,
     }
     if (myVocabulary) {
-      return { ...myVocabulary, total };
+      return { words: myVocabulary, total };
     }
     throw new HttpException('Add words to your own vocabulary', HttpStatus.NOT_FOUND)
   }
